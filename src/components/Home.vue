@@ -15,7 +15,7 @@
 
                           </div>
                           <div class="intro-text">
-                              <h1 class="bold-text">Hello there!</h1>
+                              <h1 class="bold-text">I make your product look great</h1>
                               <p class="desc-text">
                                   As someone who is passionate about Software, I have been committed to designing and developing useful application bla bla
                               </p>
