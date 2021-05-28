@@ -150,8 +150,7 @@ export default {
     width: 80%;
     margin: 0 auto;
     padding-top: 30px;
-    max-width: 1670px;
-
+    max-width: 1300px;
 }
 .designation{
     font-size: 16px;
@@ -160,6 +159,7 @@ export default {
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 15vh;
+    font-weight: 700;
 }
 .name{
     font-family: 'Playfair Display', serif;
@@ -183,7 +183,7 @@ strong{
     width: 80%;
     margin: 0 auto;
     padding: 100px 0;
-    max-width: 1670px;
+    max-width: 1300px;
 }
 .flex-j{
     display: flex;
@@ -220,11 +220,6 @@ strong{
 .projects{
     background: #fff;
 }
-/* .projects .section-title{
-    position: sticky;
-    top: -120px;
-    background: #fff;
-} */
 .projects-container{
     margin: 100px auto 0;
     width: 80%;
@@ -239,7 +234,6 @@ strong{
 .project-image-background {
     padding: 25px;
     flex: 2;
-    background: #000;
     height: 380px;
     cursor: pointer;
 }
@@ -313,9 +307,6 @@ strong{
     height: 100%;
     width: 100%;
 } */
-
-
-
 .project-text{
     flex: 1;
     background: rgb(245, 249, 252);
@@ -334,6 +325,88 @@ strong{
 } */
 footer{
     background: #ECE9EB;
+
+}
+@media only screen and (max-width: 650px) {
+.designation{
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 15vh;
+}
+.name{
+    font-size: 12rem;
+}
+.landing-text{
+    font-size: 20px;
+}
+.landing-text br{
+    display: none
+}
+.section-content{
+    padding: 70px 0;
+}
+.skills .flex-j{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.section-title{
+    font-size: 3rem;
+    letter-spacing: -4px;
+    line-height: 1;
+}
+.flex-left{
+    margin-right: 0px;
+}
+.section-desc{
+    width: 100%;
+    color: #574C52;
+    margin-top: 20px
+}
+.stack-list{
+    font-size: 24px;
+}
+.skills .section-desc, .skills .stack-list{
+    width: 100%;
+    text-align: justify;
+}
+.skills .stack-list{
+    text-align: left;
+}
+.projects .flex-j{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.projects-container{
+    margin: 100px auto 0;
+    width: 100%;
+}
+.project{
+    align-items: center;
+    margin: 50px 0
+}
+.project a{
+    flex: 2;
+}
+.project-image-background {
+    padding: 20px;
+    height: 180px;
+    width: 300px;
+}
+.project-text{
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+}
+.project-title{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
 
 }
 </style>
