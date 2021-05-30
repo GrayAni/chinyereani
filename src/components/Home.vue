@@ -145,10 +145,10 @@
             <div class="section-content flex-j">
                 <p>chinyereani1@gmail.com</p>
                 <p>
-                    <a href="https://github.com/GrayAni">Github</a>
+                    <a href="https://github.com/GrayAni" target="blank">Github</a>
                 </p>
                 <p>
-                    <a href="https://dribbble.com/Anigray">Dribbble</a>
+                    <a href="https://dribbble.com/Anigray" target="blank">Dribbble</a>
                 </p>
             </div>
         </footer>
