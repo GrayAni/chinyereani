@@ -20,7 +20,7 @@
                         </p>
                         <p class="stack-list">
                             Javascript . React . Redux . Vue.js . Vuex . HTML . CSS . Graphql . Restful APIs 
-                            . Git . Progressive Web Apps . Responsive Designs . Figma . Adobe XD, etc.
+                            . Git . Progressive Web Apps . Responsive Designs . Figma . Adobe XD ...
                         </p>
                         <p class="section-desc">
                             <strong>Beyond Tech</strong>, I enjoy playing my guitar, discovering new sounds, body/mind exercises and mentoring. <br> <br>
@@ -41,10 +41,10 @@
                     </h2>
                     <p class="section-desc">
                         <br>
-                        <strong>In the past 3 years</strong>, I have built applications, working in the finance industry, with diversifications
-                        in Insurance, Fintech, Health, Retail, Education and Community groups. These applications have helped me understand better, the
-                        concepts of product ideation until deployment. They have also broadened my experience in tech stack principles and use, user-focused designs, design thinking
-                        processes, product design, management, efficiency and security.
+                        <strong>In the past three years</strong>, I have built over thirteen applications, working in the finance industry, with diversifications
+                        in Insurance, Fintech, Health, Retail, Education and Community groups. These applications/projects have helped me understand better, the
+                        concepts of product ideation until deployment. They have also broadened my experience in tech stack principles and usage, user-focused designs, design thinking, 
+                        product design and management, software efficiency and security. Some of my work include:
                     </p>
                     <div class="projects-container">
                         <div class="project flex-j">
@@ -55,13 +55,16 @@
                             </a>
                             <div class="project-text">
                                 <h4 class="project-title">Sterling Online Account Opening</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">This is the online web account opening platform of Sterling Bank Plc. 
+                                    Prospective customers can open fully functional bank accounts and upload their documents from their comfort places.</p>
                             </div>
                         </div>
                         <div class="project flex-j">
                             <div class="project-text">
                                 <h4 class="project-title">TrybeOne</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">TrybeOne aims to create an intersection between pop culture and finance.
+                                    Young people can onboard, open accounts, earn money, invest and learn within the TrybeOne community.
+                                </p>
                             </div>
                             <a href="https://trybeone.ng" target="blank">
                                 <div class="project-image-background bg-two">
@@ -77,15 +80,18 @@
                             </a>
                             <div class="project-text">
                                 <h4 class="project-title">Mizala</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">Want to insure your car with flexible payment options? Mizala helps you achieve that.
+                                    Customers can sign up, login, buy weekly or monthly or yearly plan, view their dashboard and payment history and also cancel their plan.
+                                </p>
                             </div>
                         </div>
                         <div class="project flex-j">
                             <div class="project-text">
                                 <h4 class="project-title">Pencils</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">Pencils is design concept for a luxury pencil company. 
+                                    It basically displays images of the pencils design and allow customer join a waiting list to pre-order them. </p>
                             </div>
-                            <a href="https://popuptemplate.netlify.app/#/" target="blank">
+                            <a href="https://pencils-creed.netlify.app" target="blank">
                                 <div class="project-image-background bg-four">
                                     <div class="pencils"></div>
                                 </div>
@@ -93,26 +99,42 @@
                         </div>
                         
                         <div class="project flex-j">
-                            <a href="https://popuptemplate.netlify.app/#/" target="blank">
+                            <a href="https://jemma.netlify.app/" target="blank">
                                 <div class="project-image-background bg-five">
                                     <div class="jemma"></div>
                                 </div>
                             </a>
                             <div class="project-text">
                                 <h4 class="project-title">Jemma</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">I was thinking a way to solve the issues surrounding getting decent apartments in Lagos. 
+                                    I want to help people get very good apartments and save the time spent in checking bad
+                                    spaces. This design represents the first step in achieving that.</p>
                             </div>
                         </div>
                         <div class="project flex-j">
                             <div class="project-text">
                                 <h4 class="project-title">Pop up Editor</h4>
-                                <p class="project-desc"></p>
+                                <p class="project-desc">This is a design for a Pop up template editor. The goal is to allow
+                                    people customize popups, generate a script and embeded in any project.</p>
                             </div>
                             <a href="https://popuptemplate.netlify.app/#/" target="blank">
                                 <div class="project-image-background bg-six">
                                     <div class="popedit"></div>
                                 </div>
                             </a>
+                        </div>
+                        <div class="project flex-j">
+                            <a href="https://dribbble.com/Anigray" target="blank">
+                                <div class="project-image-background bg-seven">
+                                    <div class="dribbble"></div>
+                                </div>
+                            </a>
+                            <div class="project-text">
+                                <h4 class="project-title">My Dribbble</h4>
+                                <p class="project-desc">Here, you will find some
+                                    designs of previous projects not listed here. Others are design ideas or projects I am exploring.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,7 +256,7 @@ strong{
 .project-image-background {
     padding: 25px;
     flex: 2;
-    height: 380px;
+    height: 370px;
     cursor: pointer;
 }
 .bg-one{
@@ -297,37 +319,39 @@ strong{
     height: 100%;
     width: 100%;
 }
-/* .bg-four{
+.bg-seven{
     background: #ddd;
 }
-.feraun{
-    background: url(../assets/images/feraun.png) no-repeat;
+.dribbble{
+    background: url(../assets/images/dribbble.png) no-repeat;
     background-position: center;
     background-size: contain;
     height: 100%;
     width: 100%;
-} */
+}
 .project-text{
     flex: 1;
     background: rgb(245, 249, 252);
     padding: 25px;
-    height: 220px;
+    height: 100%;
 }
 .project-title{
-    margin-bottom: 20px;
-    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-size: 18px;
     letter-spacing: 0.4px;
-    color: #696e6e;
+    color: #574C52;
     font-weight: 600;
 }
-/* .project-desc{
-
-} */
+.project-desc{
+    line-height: 1.5;
+    color: #574C52;
+    text-align: justify;
+}
 footer{
     background: #ECE9EB;
 
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
 .designation{
     font-size: 13px;
     letter-spacing: 3px;
@@ -396,7 +420,6 @@ footer{
 }
 .project-text{
     padding: 15px;
-    height: 100%;
     width: 100%;
 }
 .project-title{
