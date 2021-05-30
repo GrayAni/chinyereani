@@ -366,7 +366,7 @@ footer p{
     color: #574C52;
     letter-spacing: 0.7px;
     font-weight: 600;
-    margin: 0 0 20px;
+    margin: 0 20px 20px;
     
 }
 footer a{
