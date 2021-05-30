@@ -142,8 +142,14 @@
         </main>
 
         <footer>
-            <div class="section-content">
-            
+            <div class="section-content flex-j">
+                <p>chinyereani1@gmail.com</p>
+                <p>
+                    <a href="https://github.com/GrayAni">Github</a>
+                </p>
+                <p>
+                    <a href="https://dribbble.com/Anigray">Dribbble</a>
+                </p>
             </div>
         </footer>
     </div>
@@ -349,6 +355,23 @@ strong{
 }
 footer{
     background: #ECE9EB;
+}
+footer .section-content{
+    padding: 70px 0 50px
+}
+footer .flex-j{
+    flex-wrap: wrap;
+}
+footer p{
+    color: #574C52;
+    letter-spacing: 0.7px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #574C52;
 
 }
 @media only screen and (max-width: 900px) {
@@ -427,9 +450,5 @@ footer{
     font-size: 16px;
     font-weight: 600;
 }
-
-
-
-
 }
 </style>
