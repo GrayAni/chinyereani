@@ -19,8 +19,8 @@
                             In satisfying my curiousity, I have learnt to design and develop product, projects and ideas using
                         </p>
                         <p class="stack-list">
-                            Javascript . React . Redux . Vue.js . Vuex . HTML . CSS . Graphql . Restful APIs 
-                            . Git . Progressive Web Apps . Responsive Designs . Figma . Adobe XD ...
+                            Javascript . React . Redux . Vue.js . Vuex . HTML . CSS . Graphql . Restful APIs . GraphQL .
+                            . Git . Progressive Web Apps . Nodejs . Express . MongoDB . SQL . Responsive Designs . Figma . Adobe XD ...
                         </p>
                         <p class="section-desc">
                             <strong>Beyond Tech</strong>, I enjoy playing my guitar, discovering new sounds, body/mind exercises and mentoring. <br> <br>
